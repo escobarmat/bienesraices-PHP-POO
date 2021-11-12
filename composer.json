@@ -1,0 +1,19 @@
+{
+    "name": "jose/bienesraices-php-poo",
+    "description": "Creando un proyecto POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matias Escobar",
+            "email": "escobar_matias92@hotmail.com.ar"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
