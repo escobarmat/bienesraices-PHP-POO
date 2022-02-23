@@ -35,7 +35,6 @@ incluirTemplates("header", $inicio = true);
     <h2>Casas y Depas en Vente</h2>
     <?php
     // incluirTemplates("anuncios");
-    $limite=3;
     include "includes/templates/anuncios.php"
     ?>
     <div class="alinear-derecha ver-todas">
